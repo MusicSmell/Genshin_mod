@@ -4,13 +4,14 @@ namespace_merge.py (by [SilentNightSound](https://github.com/SilentNightSound/GI
 <br/>
 
 ## 간단 사용법
-1. help_generator.py 다운로드
-2. namespace_merge.py로 통합된 폴더로 파일 복사
-3. 아래 코드 실행 
+1. namespace_merge.py로 모드 통합하기. 이 때 이름을 '꼭' 올바른 캐릭터 이름([링크의 폴더 이름](https://github.com/leotorrez/GI-Model-Importer-Assets/tree/main/PlayerCharacterData))으로 입력하기.
+2. help_generator.py 다운로드
+3. namespace_merge.py로 통합된 폴더로 파일 복사
+4. 아래 코드 실행 
 ```bash
 python namespace_merge.py
 ```
-4. 해당 캐릭터가 보이는 창에서, `/?`키 누르기
+5. 해당 캐릭터가 보이는 창에서, `/?`키 누르기
 <br/>
 
 ## 상세 사용법
@@ -81,6 +82,7 @@ array = 1
 ; 인게임 내에 help.txt의 내용을 어떻게 띄울지 그 스타일을 결정합니다.
 data = R32_FLOAT   -0.93 -1 1 1   1 1 1 1   0 0 0 0.5   0.025 0.025   1 2   0   1.0
 ```
+<br/>
 
 ## Q & A
 #### 왜 토글키 설명이 이따구인가요?
