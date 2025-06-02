@@ -7,7 +7,7 @@ namespace_merge.py (by [SilentNightSound](https://github.com/SilentNightSound/GI
 1. namespace_merge.py로 모드 통합하기. 이 때 이름을 '꼭' 올바른 캐릭터 이름([링크의 폴더 이름](https://github.com/leotorrez/GI-Model-Importer-Assets/tree/main/PlayerCharacterData))으로 입력하기.
 2. help_generator.py 다운로드
 3. namespace_merge.py로 통합된 폴더로 파일 복사
-4. 아래 코드 실행 
+4. 해당 폴더에서 아래 코드 실행 
 ```bash
 python namespace_merge.py
 ```
