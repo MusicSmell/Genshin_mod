@@ -4,7 +4,7 @@ namespace_merge.py (by [SilentNightSound](https://github.com/SilentNightSound/GI
 <br/>
 
 ## 간단 사용법
-1. namespace_merge.py로 모드 통합하기. 이 때 이름을 '꼭' 올바른 캐릭터 이름([링크의 폴더 이름](https://github.com/leotorrez/GI-Model-Importer-Assets/tree/main/PlayerCharacterData))으로 입력하기.
+1. namespace_merge.py로 모드 통합하기. 이 때 이름을 '꼭' 올바른 캐릭터 이름([링크에서 폴더 이름 참고](https://github.com/leotorrez/GI-Model-Importer-Assets/tree/main/PlayerCharacterData))으로 입력하기.
 2. help_generator.py 다운로드
 3. namespace_merge.py로 통합된 폴더로 파일 복사
 4. 해당 폴더에서 아래 코드 실행 
@@ -97,15 +97,3 @@ array = 1
 data = R32_FLOAT   -0.93 -1 1 1   1 1 1 1   0 0 0 0.5   0.025 0.025   1 2   0   1.0
 ```
 <br/>
-
-## Q & A
-#### 왜 토글키 설명이 이따구인가요
->이 코드는 '자동생성기' 입니다. 모드 제작자가 명명한 토글키 이름을 그대로 불러오기 때문에 제작자에 따라 토글키 설명이 불친절할 수 있습니다.<br/>
->불만족스럽다면 해당 모드의 help.txt를 직접 수정해주세요.
-#### 다른 캐릭터나 다른 모드의 도움말이 떠요
->동시에 여러 도움말을 불러오면 다른 하나가 무시됩니다. [커스터마이징/3. help.ini 수정하기](#3-helpini-수정하기)를 참고하여 hash, master, index가 겹치는 다른 help.ini가 있는지 확인해보세요.<br/>
->서로 다른 캐릭터가 동시에 존재할 경우 (선계, 스토리 등) 다른 캐릭터의 도움말이 뜰 수 있습니다.<br/>
->일부 캐릭터를 같이 파티에 편성할 경우 (저의 경우 푸리나 + 마비카) 고장나는데 (통합 자체의 문제라고 추정되나) 원인은 잘 모르겠습니다. 재접하면 해당 파티를 불러오기 전까지 정상 작동합니다.
-#### 도움말이 안 떠요
->토글키가 존재하지 않는 모드의 경우 도움말을 생성하지 않습니다.<br/>
->hash가 잘못된 경우일 수 있습니다. 
